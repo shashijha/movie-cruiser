@@ -72,7 +72,7 @@ function addFavourite(movieId) {
 			favouritesList.innerHTML = favouritesList.innerHTML + favouriteItem;
 		});
 
-	return fetch('https://shashijha.github.io/movie-cruiser.github.io/db.json/favourites', {
+	return fetch('https://javascriptjson.herokuapp.com/favourites', {
 		method: 'POST',
 		body: JSON.stringify(data),
 		headers: {
