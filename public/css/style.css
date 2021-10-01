@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+}
+#moviesList,
+#favouritesList {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-flow: row wrap;
+	border: 2px solid grey;
+    border-radius: 10px;
+    padding: 12px 0;
+}
+.card-custom {
+	flex-basis: 30%;
+	position: relative;
+}
+
+.card-custom .card-body {
+	padding: 0.25rem;
+}
+.fav-button-holder {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	font-size: 2rem;
+	color: white;
+}
+.fav-button-holder:hover {
+	color: red;
+}
