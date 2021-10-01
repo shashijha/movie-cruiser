@@ -86,11 +86,11 @@ function addFavourite(movieId) {
 	});
 }
 
-module.exports = {
+/*module.exports = {
 	getMovies,
 	getFavourites,
 	addFavourite
-};
+};*/
 
 // You will get error - Uncaught ReferenceError: module is not defined
 // while running this script on browser which you shall ignore
