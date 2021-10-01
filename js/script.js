@@ -1,6 +1,6 @@
 let moviesListItem = [];
 function getMovies() {
-	return fetch('https://shashijha.github.io/movie-cruiser.github.io/db.json/movies').then(response => {
+	return fetch('https://javascriptjson.herokuapp.com/movies').then(response => {
 		return response.json();
 	}).then(res => {
 		moviesListItem = res;
@@ -27,7 +27,7 @@ function getMovies() {
 }
 let favouritesListItem = [];
 function getFavourites() {
-	return fetch('https://shashijha.github.io/movie-cruiser.github.io/db.json/favourites').then(response => {
+	return fetch('https://javascriptjson.herokuapp.com/favourites').then(response => {
 		return response.json();
 	}).then(res => {
 		favouritesListItem = res;
